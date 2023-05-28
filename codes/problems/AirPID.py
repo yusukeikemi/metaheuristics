@@ -13,7 +13,7 @@ class AirPID(Problem):
         self.MIN_VAL = 0
         self.MAX_VAL = 1
         # Default path
-        self.base_path="C:/Users/YIkemi.DESKTOP-1O5DLKF/source/repos/FluidicAnalysys/FluidicSystem_AirPID/FluidicSystemServer/bin/x64/Debug"
+        self.base_path="C:/Users/YIkemi.DESKTOP-1O5DLKF/source/repos/FluidicSystem_AirPID/FluidicSystemServer/bin/x64/Debug"
     
 
     def init(self, base_path):
@@ -22,7 +22,7 @@ class AirPID(Problem):
     
     def eval(self, np_arr):
         #base_path="C:/Users/YIkemi.DESKTOP-1O5DLKF/source/repos/FluidicSystem/FluidicSystemServer/bin/x64/Debug"
-        self.base_path="C:/Users/YIkemi.DESKTOP-1O5DLKF/source/repos/FluidicAnalysys/FluidicSystem_AirPID/FluidicSystemServer/bin/x64/Debug"
+        self.base_path="C:/Users/YIkemi.DESKTOP-1O5DLKF/source/repos/FluidicSystem_AirPID/FluidicSystemServer/bin/x64/Debug"
     
         apasimu = apa.AirPIDAdjust(self.base_path,debug = True)
         #base params = 0.015, 0.003, 0.01, 1, 5, 0.055, 0.05, 0.02, 1, 5

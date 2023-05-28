@@ -11,7 +11,7 @@ def main():
     p = AirPID(5)
     a = PSO(3)
 
-    p.init("C:/Users/YIkemi.DESKTOP-1O5DLKF/source/repos/FluidicAnalysys/FluidicSystem_AirPID/FluidicSystemServer/bin/x64/Debug")
+    p.init("C:/Users/YIkemi.DESKTOP-1O5DLKF/source/repos/FluidicSystem_AirPID/FluidicSystemServer/bin/x64/Debug")
     a.init(p)
 
     max_score = a.getMaxScore()
